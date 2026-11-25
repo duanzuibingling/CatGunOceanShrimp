@@ -1,0 +1,11 @@
+# 只把源码树送进构建上下文，排除缓存、文档与本地证据
+__pycache__/
+*.py[cod]
+*.pyo
+docs/
+config/
+README.md
+DEPENDENCIES.md
+MANIFEST.json
+requirements.txt
+.dockerignore

@@ -1,0 +1,15 @@
+# 智训引擎 final2b 镜像运行时依赖（与镜像内 pip freeze 对齐）
+#
+# 镜像内实际安装的第三方发行包只有两个：
+#   numpy==2.0.2
+#   contest-harness==1.0.2（官方 SDK，不在 PyPI 分发；源码随包 vendor 在
+#                          app/contest_harness/，安装方式见 Dockerfile）
+# contest-harness 不是 PyPI 包，故不写成 pip 可解析的依赖行，避免离线安装失败。
+numpy==2.0.2
+
+# 说明：
+# - 平台 SDK 路径（harness.py -> contest_harness.cli -> contest_submission.py）
+#   只 import numpy 与 contest_harness，以及 app/dp/b_engine.py、app/dp/cosine.py。
+# - app/dp 下另有本地 Harness 模块（model.py / skills.py / stream.py / official.py 等），
+#   在镜像内不可导入（缺 scikit-learn、PyYAML）；它们不参与平台评分路径。
+#   详见 DEPENDENCIES.md 的「开发期/非镜像路径」一节。

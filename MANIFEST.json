@@ -1,0 +1,303 @@
+{
+  "package": "智训引擎 final2b 项目源代码",
+  "root": "zhixun-engine-final2b-src",
+  "generated_at": "2026-11-24T00:21:25+0800",
+  "image": {
+    "ref": "driftpilot:sdk-final2b",
+    "id": "sha256:2f4014bb51450c3a9bebd5e072ad61907909df99db86b4cb20c1236a8b0bbb3e",
+    "layers": 25
+  },
+  "tar": {
+    "path": "dist/driftpilot-sdk-final2b.tar",
+    "bytes": 150721024,
+    "sha256": "999a28e32814e7d9452ef107d2fde0bc242208f3b7ac4c0f3d0257435f52158c"
+  },
+  "file_count": 47,
+  "total_bytes": 626093,
+  "note": "MANIFEST.json 不记录自身；sha256 为文件内容摘要。",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 192,
+      "sha256": "f155aeec7e8d345f52dce5398943da4c48182e13de47716425cf11f20979dfe4",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 4419,
+      "sha256": "81a9a2a633decf264469ff84e5077b7e09431cc2b6d9cbec525338a68759fd4c",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 3184,
+      "sha256": "fd67c32a7611b1a3adbf7572048c92d122af23a5ea6f1f903b0e758dc565ea75",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10714,
+      "sha256": "f07b0ab6b61037e68618a2944916b0dffb8115dfe0fe847357c9482fcb417473",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "app/baselines/__init__.py",
+      "bytes": 78,
+      "sha256": "3363d6112a78e5b4de3508da13e543708fc6a9019c65f3c8bcecb5178a321d7a",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/baselines/data.py",
+      "bytes": 3994,
+      "sha256": "6099e312829ac3aaf48209ec1f618532c4a8552fedf73f09cf31c8876261db65",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/baselines/model.py",
+      "bytes": 11988,
+      "sha256": "325026d80747eb36f39c8df1be02b640ae21b3cd082827c66aacbdf273dd61c5",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/contest_harness/__init__.py",
+      "bytes": 605,
+      "sha256": "eb610b6a10989bb099b5d8ff17f6fa21fbe0ec74d1755fdd49c8334b7b69d390",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/__main__.py",
+      "bytes": 63,
+      "sha256": "f7823547b47bbcd01220fb07ed71a2f0555e5ad5f5f3862cf2fbd149e3002f3a",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/cli.py",
+      "bytes": 2788,
+      "sha256": "989160095a767588eac1bedb599369a23b631396b0d7b8053d9fbefdad64ed7e",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/data.py",
+      "bytes": 928,
+      "sha256": "b4337be78fd48154702ec34520448185c670979f6de2caeb37b0b358694b5508",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/errors.py",
+      "bytes": 339,
+      "sha256": "34bade6079dd8ee3224313d4a6808f13598d7fe18dd0fe99c2a56aa375a5ea7a",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/predict.py",
+      "bytes": 4838,
+      "sha256": "2d6a4d5f5a5d41ed3103e7f2783bfd27c0e47581379e1d7390a09c5c28311df5",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/protocol.py",
+      "bytes": 1133,
+      "sha256": "3ecf411165153d51302f91acb5a5f9436916b1885fb984873bc42340e1c6452f",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/round.py",
+      "bytes": 20109,
+      "sha256": "2d9f359e99627b8ce2b83bf0cbce9ea0992f4a0edb5c21d5f03f1692f1d385da",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_harness/transport.py",
+      "bytes": 6254,
+      "sha256": "ad44a367c6b75b2b0ea067dcdd9432834cb5dd3c739d994a62ec86dcb19888f8",
+      "origin": "镜像 site-packages（SDK wheel 1.0.2）"
+    },
+    {
+      "path": "app/contest_submission.py",
+      "bytes": 31993,
+      "sha256": "b4bc4bb9dc398ac88b3129f04c7fd65890a579145558e2871766f92d44092d99",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/__init__.py",
+      "bytes": 111,
+      "sha256": "abf0a53de0ba881659a8553f9524aff14566290eb9f7eea7b0e113946e236109",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/adapters/cmapss.py",
+      "bytes": 10553,
+      "sha256": "429dec0ead9ba796dc2901f100f381b7667cf3b7f7e1f2e7d43ea971367f8eb2",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/adapters/xjtu.py",
+      "bytes": 12856,
+      "sha256": "1172c813f7d414bf6bf8917ac0bf0fc59f087b5c19a6c97ca74a446895c82255",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/audit.py",
+      "bytes": 2605,
+      "sha256": "4208bce35a5d3c132d951028efdd5b9ebfd49f6627cd111fa079b92a57df047f",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/b_engine.py",
+      "bytes": 43634,
+      "sha256": "418449159d4ef7dbcf97248f267cfe3af02572627ea5f2488f6bc990d0079962",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/cosine.py",
+      "bytes": 8112,
+      "sha256": "40d98bc71c7841e4563dd5e894b3f5185672684fd6f385466dd7a8e0ad531db4",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/data.py",
+      "bytes": 7705,
+      "sha256": "7cd3b608bb3636e8ee71518add0e806eb2d6126f6c177ef1a5710094cf98ce16",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/evaluate.py",
+      "bytes": 5494,
+      "sha256": "1d8f543242e7d614cf609068c215836e3a73fb0b43e17ada4c83d7ea3d6eb89f",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/fingerprint.py",
+      "bytes": 2098,
+      "sha256": "0f5be9c8a45f510b10d10617db744e776e5f53df3d4ce8277cd8c194174df437",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/harness.py",
+      "bytes": 13214,
+      "sha256": "779b25f5ad665e7e4643ab1cfb5b51f0a9cca9679f3edabe049a30cb8b093480",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/llm.py",
+      "bytes": 6921,
+      "sha256": "2f0db2e532cbf53e6e86ea1009ef95174a6e972c9fa835baef254eb2c19ca3ef",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/memory.py",
+      "bytes": 4254,
+      "sha256": "4bd8c3465c286450c7692c517774b316b2486cf279087ea18a0c89a9a9f4aa58",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/model.py",
+      "bytes": 1638,
+      "sha256": "ff91ccbf0521969eb5ba0a7d17967821d5a0eb967f8b69a87ba3f902ac3c5375",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/official.py",
+      "bytes": 6694,
+      "sha256": "69ad86e4e1f679c5b23cab42debe17a8c2861c371835da8d3048d38207cd6a20",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/official_harness.py",
+      "bytes": 33862,
+      "sha256": "99b0f876bb9351520cb840ff0bf6f24d38c96035d273a368dfb7138ee0d986be",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/regression.py",
+      "bytes": 23363,
+      "sha256": "83c3f66d83dfa718b46bd91009de7221f51bc17da46c3ac73a40fcddc09479f5",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/skills.py",
+      "bytes": 7350,
+      "sha256": "5b954a5195c645571f2924d5077a427cfbebcc56a540d167955e540698c62635",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/stream.py",
+      "bytes": 9540,
+      "sha256": "8df0c0ac2c12a480b936dd87168674e62c9175f1eb9af7f194f7784bb4b4720f",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/tasks.py",
+      "bytes": 3361,
+      "sha256": "b853db34738116838b692b8d447b34bd4f588dcb0857fa3140f0bab6aeba098b",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/dp/tracking.py",
+      "bytes": 3369,
+      "sha256": "a6f283c52e5a8b175dcf620f5065d8c398aefc1e67175feb036959abec5d9c6e",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/entrypoint.py",
+      "bytes": 136909,
+      "sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/entrypoint_safe.py",
+      "bytes": 136909,
+      "sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/harness.py",
+      "bytes": 204,
+      "sha256": "6ef17e7dfd73558daf8464f7be8b1e963ccf103c76638c623911ec5c334c93f5",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "app/run_official_harness.py",
+      "bytes": 8353,
+      "sha256": "472ae62410c4730e78c0176f61b1c75733bb88e998af1c441ea5a643e9e33cf1",
+      "origin": "镜像 /app（docker cp）"
+    },
+    {
+      "path": "config/env.list",
+      "bytes": 1392,
+      "sha256": "11b1cbf39cf6df0beb23bd457ed2c94d0348e79062b92d91f0f381eaf77e662c",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "docs/HARNESS_SDK.md",
+      "bytes": 11864,
+      "sha256": "0433a8a3c7b6641985b1abf90c9ce5de349b1b3efdad1c6494ed6680c9ebc99c",
+      "origin": "SDK 包内 HARNESS_SDK.md"
+    },
+    {
+      "path": "docs/SDK-NOTICE.md",
+      "bytes": 1472,
+      "sha256": "6b1c01387e7d0daef92606c6c0e8635fe89f52973477f725c90913c23cc0e30a",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "docs/VERIFY-image-consistency.json",
+      "bytes": 13429,
+      "sha256": "70237474223c08fc4bbaa38adf3b17c2b2598101aee91fb2f4a7f24821765a6c",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "docs/VERIFY-image-consistency.md",
+      "bytes": 4302,
+      "sha256": "eebdc6410fcd0cce33f8ec61abcf6b5ca8f3b3ba77b7a89b8f15cd8e41480d0d",
+      "origin": "本项目撰写"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 906,
+      "sha256": "a5a9791196d395ac15833f4824581cb3fb9223ea4777183a280795b43979ddda",
+      "origin": "本项目撰写"
+    }
+  ],
+  "issues": []
+}

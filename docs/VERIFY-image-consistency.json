@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-11-24T00:21:25+0800",
+  "image": {
+    "ref": "driftpilot:sdk-final2b",
+    "id": "sha256:2f4014bb51450c3a9bebd5e072ad61907909df99db86b4cb20c1236a8b0bbb3e",
+    "layers": 25,
+    "tar_sha256": "999a28e32814e7d9452ef107d2fde0bc242208f3b7ac4c0f3d0257435f52158c",
+    "tar_bytes": 150721024
+  },
+  "method": "docker cp driftpilot:sdk-final2b:/app -> _inspect/app_image；docker cp …/site-packages/contest_harness -> _inspect/sdk_image；逐文件 sha256 对比源码包",
+  "summary": {
+    "image_files": 28,
+    "package_files": 47,
+    "image_files_matched": 28,
+    "image_files_mismatched": 0,
+    "image_files_missing": 0,
+    "sdk_modules_matched": 9,
+    "sdk_modules_total": 9,
+    "sdk_image_modules": 9,
+    "banned_ext_files": 0,
+    "secret_hits": 0
+  },
+  "image_vs_package": [
+    {
+      "image_path": "/app/baselines/__init__.py",
+      "package_path": "app/baselines/__init__.py",
+      "image_sha256": "3363d6112a78e5b4de3508da13e543708fc6a9019c65f3c8bcecb5178a321d7a",
+      "package_sha256": "3363d6112a78e5b4de3508da13e543708fc6a9019c65f3c8bcecb5178a321d7a",
+      "match": true
+    },
+    {
+      "image_path": "/app/baselines/data.py",
+      "package_path": "app/baselines/data.py",
+      "image_sha256": "6099e312829ac3aaf48209ec1f618532c4a8552fedf73f09cf31c8876261db65",
+      "package_sha256": "6099e312829ac3aaf48209ec1f618532c4a8552fedf73f09cf31c8876261db65",
+      "match": true
+    },
+    {
+      "image_path": "/app/baselines/model.py",
+      "package_path": "app/baselines/model.py",
+      "image_sha256": "325026d80747eb36f39c8df1be02b640ae21b3cd082827c66aacbdf273dd61c5",
+      "package_sha256": "325026d80747eb36f39c8df1be02b640ae21b3cd082827c66aacbdf273dd61c5",
+      "match": true
+    },
+    {
+      "image_path": "/app/contest_submission.py",
+      "package_path": "app/contest_submission.py",
+      "image_sha256": "b4bc4bb9dc398ac88b3129f04c7fd65890a579145558e2871766f92d44092d99",
+      "package_sha256": "b4bc4bb9dc398ac88b3129f04c7fd65890a579145558e2871766f92d44092d99",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/__init__.py",
+      "package_path": "app/dp/__init__.py",
+      "image_sha256": "abf0a53de0ba881659a8553f9524aff14566290eb9f7eea7b0e113946e236109",
+      "package_sha256": "abf0a53de0ba881659a8553f9524aff14566290eb9f7eea7b0e113946e236109",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/adapters/cmapss.py",
+      "package_path": "app/dp/adapters/cmapss.py",
+      "image_sha256": "429dec0ead9ba796dc2901f100f381b7667cf3b7f7e1f2e7d43ea971367f8eb2",
+      "package_sha256": "429dec0ead9ba796dc2901f100f381b7667cf3b7f7e1f2e7d43ea971367f8eb2",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/adapters/xjtu.py",
+      "package_path": "app/dp/adapters/xjtu.py",
+      "image_sha256": "1172c813f7d414bf6bf8917ac0bf0fc59f087b5c19a6c97ca74a446895c82255",
+      "package_sha256": "1172c813f7d414bf6bf8917ac0bf0fc59f087b5c19a6c97ca74a446895c82255",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/audit.py",
+      "package_path": "app/dp/audit.py",
+      "image_sha256": "4208bce35a5d3c132d951028efdd5b9ebfd49f6627cd111fa079b92a57df047f",
+      "package_sha256": "4208bce35a5d3c132d951028efdd5b9ebfd49f6627cd111fa079b92a57df047f",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/b_engine.py",
+      "package_path": "app/dp/b_engine.py",
+      "image_sha256": "418449159d4ef7dbcf97248f267cfe3af02572627ea5f2488f6bc990d0079962",
+      "package_sha256": "418449159d4ef7dbcf97248f267cfe3af02572627ea5f2488f6bc990d0079962",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/cosine.py",
+      "package_path": "app/dp/cosine.py",
+      "image_sha256": "40d98bc71c7841e4563dd5e894b3f5185672684fd6f385466dd7a8e0ad531db4",
+      "package_sha256": "40d98bc71c7841e4563dd5e894b3f5185672684fd6f385466dd7a8e0ad531db4",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/data.py",
+      "package_path": "app/dp/data.py",
+      "image_sha256": "7cd3b608bb3636e8ee71518add0e806eb2d6126f6c177ef1a5710094cf98ce16",
+      "package_sha256": "7cd3b608bb3636e8ee71518add0e806eb2d6126f6c177ef1a5710094cf98ce16",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/evaluate.py",
+      "package_path": "app/dp/evaluate.py",
+      "image_sha256": "1d8f543242e7d614cf609068c215836e3a73fb0b43e17ada4c83d7ea3d6eb89f",
+      "package_sha256": "1d8f543242e7d614cf609068c215836e3a73fb0b43e17ada4c83d7ea3d6eb89f",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/fingerprint.py",
+      "package_path": "app/dp/fingerprint.py",
+      "image_sha256": "0f5be9c8a45f510b10d10617db744e776e5f53df3d4ce8277cd8c194174df437",
+      "package_sha256": "0f5be9c8a45f510b10d10617db744e776e5f53df3d4ce8277cd8c194174df437",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/harness.py",
+      "package_path": "app/dp/harness.py",
+      "image_sha256": "779b25f5ad665e7e4643ab1cfb5b51f0a9cca9679f3edabe049a30cb8b093480",
+      "package_sha256": "779b25f5ad665e7e4643ab1cfb5b51f0a9cca9679f3edabe049a30cb8b093480",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/llm.py",
+      "package_path": "app/dp/llm.py",
+      "image_sha256": "2f0db2e532cbf53e6e86ea1009ef95174a6e972c9fa835baef254eb2c19ca3ef",
+      "package_sha256": "2f0db2e532cbf53e6e86ea1009ef95174a6e972c9fa835baef254eb2c19ca3ef",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/memory.py",
+      "package_path": "app/dp/memory.py",
+      "image_sha256": "4bd8c3465c286450c7692c517774b316b2486cf279087ea18a0c89a9a9f4aa58",
+      "package_sha256": "4bd8c3465c286450c7692c517774b316b2486cf279087ea18a0c89a9a9f4aa58",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/model.py",
+      "package_path": "app/dp/model.py",
+      "image_sha256": "ff91ccbf0521969eb5ba0a7d17967821d5a0eb967f8b69a87ba3f902ac3c5375",
+      "package_sha256": "ff91ccbf0521969eb5ba0a7d17967821d5a0eb967f8b69a87ba3f902ac3c5375",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/official.py",
+      "package_path": "app/dp/official.py",
+      "image_sha256": "69ad86e4e1f679c5b23cab42debe17a8c2861c371835da8d3048d38207cd6a20",
+      "package_sha256": "69ad86e4e1f679c5b23cab42debe17a8c2861c371835da8d3048d38207cd6a20",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/official_harness.py",
+      "package_path": "app/dp/official_harness.py",
+      "image_sha256": "99b0f876bb9351520cb840ff0bf6f24d38c96035d273a368dfb7138ee0d986be",
+      "package_sha256": "99b0f876bb9351520cb840ff0bf6f24d38c96035d273a368dfb7138ee0d986be",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/regression.py",
+      "package_path": "app/dp/regression.py",
+      "image_sha256": "83c3f66d83dfa718b46bd91009de7221f51bc17da46c3ac73a40fcddc09479f5",
+      "package_sha256": "83c3f66d83dfa718b46bd91009de7221f51bc17da46c3ac73a40fcddc09479f5",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/skills.py",
+      "package_path": "app/dp/skills.py",
+      "image_sha256": "5b954a5195c645571f2924d5077a427cfbebcc56a540d167955e540698c62635",
+      "package_sha256": "5b954a5195c645571f2924d5077a427cfbebcc56a540d167955e540698c62635",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/stream.py",
+      "package_path": "app/dp/stream.py",
+      "image_sha256": "8df0c0ac2c12a480b936dd87168674e62c9175f1eb9af7f194f7784bb4b4720f",
+      "package_sha256": "8df0c0ac2c12a480b936dd87168674e62c9175f1eb9af7f194f7784bb4b4720f",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/tasks.py",
+      "package_path": "app/dp/tasks.py",
+      "image_sha256": "b853db34738116838b692b8d447b34bd4f588dcb0857fa3140f0bab6aeba098b",
+      "package_sha256": "b853db34738116838b692b8d447b34bd4f588dcb0857fa3140f0bab6aeba098b",
+      "match": true
+    },
+    {
+      "image_path": "/app/dp/tracking.py",
+      "package_path": "app/dp/tracking.py",
+      "image_sha256": "a6f283c52e5a8b175dcf620f5065d8c398aefc1e67175feb036959abec5d9c6e",
+      "package_sha256": "a6f283c52e5a8b175dcf620f5065d8c398aefc1e67175feb036959abec5d9c6e",
+      "match": true
+    },
+    {
+      "image_path": "/app/entrypoint.py",
+      "package_path": "app/entrypoint.py",
+      "image_sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "package_sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "match": true
+    },
+    {
+      "image_path": "/app/entrypoint_safe.py",
+      "package_path": "app/entrypoint_safe.py",
+      "image_sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "package_sha256": "e05d257f556193c18ee55922cd735cff1720465cc80cec4a403ab258e0f5dbd4",
+      "match": true
+    },
+    {
+      "image_path": "/app/harness.py",
+      "package_path": "app/harness.py",
+      "image_sha256": "6ef17e7dfd73558daf8464f7be8b1e963ccf103c76638c623911ec5c334c93f5",
+      "package_sha256": "6ef17e7dfd73558daf8464f7be8b1e963ccf103c76638c623911ec5c334c93f5",
+      "match": true
+    },
+    {
+      "image_path": "/app/run_official_harness.py",
+      "package_path": "app/run_official_harness.py",
+      "image_sha256": "472ae62410c4730e78c0176f61b1c75733bb88e998af1c441ea5a643e9e33cf1",
+      "package_sha256": "472ae62410c4730e78c0176f61b1c75733bb88e998af1c441ea5a643e9e33cf1",
+      "match": true
+    }
+  ],
+  "sdk_source_vs_package": [
+    {
+      "module": "contest_harness/__init__.py",
+      "sdk_source_sha256": "eb610b6a10989bb099b5d8ff17f6fa21fbe0ec74d1755fdd49c8334b7b69d390",
+      "image_site_packages_sha256": "eb610b6a10989bb099b5d8ff17f6fa21fbe0ec74d1755fdd49c8334b7b69d390",
+      "package_sha256": "eb610b6a10989bb099b5d8ff17f6fa21fbe0ec74d1755fdd49c8334b7b69d390",
+      "match": true
+    },
+    {
+      "module": "contest_harness/__main__.py",
+      "sdk_source_sha256": "f7823547b47bbcd01220fb07ed71a2f0555e5ad5f5f3862cf2fbd149e3002f3a",
+      "image_site_packages_sha256": "f7823547b47bbcd01220fb07ed71a2f0555e5ad5f5f3862cf2fbd149e3002f3a",
+      "package_sha256": "f7823547b47bbcd01220fb07ed71a2f0555e5ad5f5f3862cf2fbd149e3002f3a",
+      "match": true
+    },
+    {
+      "module": "contest_harness/cli.py",
+      "sdk_source_sha256": "989160095a767588eac1bedb599369a23b631396b0d7b8053d9fbefdad64ed7e",
+      "image_site_packages_sha256": "989160095a767588eac1bedb599369a23b631396b0d7b8053d9fbefdad64ed7e",
+      "package_sha256": "989160095a767588eac1bedb599369a23b631396b0d7b8053d9fbefdad64ed7e",
+      "match": true
+    },
+    {
+      "module": "contest_harness/data.py",
+      "sdk_source_sha256": "b4337be78fd48154702ec34520448185c670979f6de2caeb37b0b358694b5508",
+      "image_site_packages_sha256": "b4337be78fd48154702ec34520448185c670979f6de2caeb37b0b358694b5508",
+      "package_sha256": "b4337be78fd48154702ec34520448185c670979f6de2caeb37b0b358694b5508",
+      "match": true
+    },
+    {
+      "module": "contest_harness/errors.py",
+      "sdk_source_sha256": "34bade6079dd8ee3224313d4a6808f13598d7fe18dd0fe99c2a56aa375a5ea7a",
+      "image_site_packages_sha256": "34bade6079dd8ee3224313d4a6808f13598d7fe18dd0fe99c2a56aa375a5ea7a",
+      "package_sha256": "34bade6079dd8ee3224313d4a6808f13598d7fe18dd0fe99c2a56aa375a5ea7a",
+      "match": true
+    },
+    {
+      "module": "contest_harness/predict.py",
+      "sdk_source_sha256": "2d6a4d5f5a5d41ed3103e7f2783bfd27c0e47581379e1d7390a09c5c28311df5",
+      "image_site_packages_sha256": "2d6a4d5f5a5d41ed3103e7f2783bfd27c0e47581379e1d7390a09c5c28311df5",
+      "package_sha256": "2d6a4d5f5a5d41ed3103e7f2783bfd27c0e47581379e1d7390a09c5c28311df5",
+      "match": true
+    },
+    {
+      "module": "contest_harness/protocol.py",
+      "sdk_source_sha256": "3ecf411165153d51302f91acb5a5f9436916b1885fb984873bc42340e1c6452f",
+      "image_site_packages_sha256": "3ecf411165153d51302f91acb5a5f9436916b1885fb984873bc42340e1c6452f",
+      "package_sha256": "3ecf411165153d51302f91acb5a5f9436916b1885fb984873bc42340e1c6452f",
+      "match": true
+    },
+    {
+      "module": "contest_harness/round.py",
+      "sdk_source_sha256": "2d9f359e99627b8ce2b83bf0cbce9ea0992f4a0edb5c21d5f03f1692f1d385da",
+      "image_site_packages_sha256": "2d9f359e99627b8ce2b83bf0cbce9ea0992f4a0edb5c21d5f03f1692f1d385da",
+      "package_sha256": "2d9f359e99627b8ce2b83bf0cbce9ea0992f4a0edb5c21d5f03f1692f1d385da",
+      "match": true
+    },
+    {
+      "module": "contest_harness/transport.py",
+      "sdk_source_sha256": "ad44a367c6b75b2b0ea067dcdd9432834cb5dd3c739d994a62ec86dcb19888f8",
+      "image_site_packages_sha256": "ad44a367c6b75b2b0ea067dcdd9432834cb5dd3c739d994a62ec86dcb19888f8",
+      "package_sha256": "ad44a367c6b75b2b0ea067dcdd9432834cb5dd3c739d994a62ec86dcb19888f8",
+      "match": true
+    }
+  ],
+  "missing_from_package": [],
+  "only_in_package": [
+    ".dockerignore",
+    "DEPENDENCIES.md",
+    "Dockerfile",
+    "README.md",
+    "app/contest_harness/__init__.py",
+    "app/contest_harness/__main__.py",
+    "app/contest_harness/cli.py",
+    "app/contest_harness/data.py",
+    "app/contest_harness/errors.py",
+    "app/contest_harness/predict.py",
+    "app/contest_harness/protocol.py",
+    "app/contest_harness/round.py",
+    "app/contest_harness/transport.py",
+    "config/env.list",
+    "docs/HARNESS_SDK.md",
+    "docs/SDK-NOTICE.md",
+    "docs/VERIFY-image-consistency.json",
+    "docs/VERIFY-image-consistency.md",
+    "requirements.txt"
+  ],
+  "banned_ext_files": [],
+  "secret_hits": [],
+  "issues": [],
+  "verdict": "PASS"
+}
